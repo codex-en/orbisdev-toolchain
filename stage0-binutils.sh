@@ -4,7 +4,7 @@ set -e
 PROC_NR=$(getconf _NPROCESSORS_ONLN)
 
 ## Download the source code.
-REPO_URL="https://github.com/bminor/binutils-gdb"
+REPO_URL="https://sourceware.org/git/binutils-gdb.git"
 REPO_FOLDER="binutils-gdb"
 BRANCH_NAME="binutils-2_38"
 if test ! -d "$REPO_FOLDER"; then
