@@ -6,7 +6,7 @@ PROC_NR=$(getconf _NPROCESSORS_ONLN)
 ## Download the source code.
 REPO_URL="https://github.com/RTEMS/binutils-gdb.git"
 REPO_FOLDER="binutils-gdb"
-BRANCH_NAME="master"
+BRANCH_NAME="master2"
 if test ! -d "$REPO_FOLDER"; then
 	git clone --depth 1 -b $BRANCH_NAME $REPO_URL && cd $REPO_FOLDER || exit 1
 else
